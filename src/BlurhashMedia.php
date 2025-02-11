@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Lukaswhite\MediaBlurhash;
+namespace Joehoel\MediaBlurhash;
 
 
 use Bepsvpt\Blurhash\Facades\BlurHash;
@@ -15,7 +15,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
 
 /**
  * Class BlurhashMedia
- * @package Lukaswhite\MediaBlurhash
+ * @package Joehoel\MediaBlurhash
  */
 class BlurhashMedia implements ShouldQueue
 {

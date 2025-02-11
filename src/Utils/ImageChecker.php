@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Lukaswhite\MediaBlurhash\Utils;
+namespace Joehoel\MediaBlurhash\Utils;
 
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
 
@@ -10,7 +10,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
  *
  * Simple utility class for checking whether a media record is an image.
  *
- * @package Lukaswhite\MediaBlurhash\Utils
+ * @package Joehoel\MediaBlurhash\Utils
  */
 class ImageChecker
 {

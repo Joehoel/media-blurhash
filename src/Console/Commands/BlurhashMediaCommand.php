@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Lukaswhite\MediaBlurhash\Console\Commands;
+namespace Joehoel\MediaBlurhash\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Foundation\Bus\DispatchesJobs;
-use Lukaswhite\MediaBlurhash\BlurhashMedia;
-use Lukaswhite\MediaBlurhash\Utils\Dispatcher;
+use Joehoel\MediaBlurhash\BlurhashMedia;
+use Joehoel\MediaBlurhash\Utils\Dispatcher;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
 
 class BlurhashMediaCommand extends Command

@@ -1,9 +1,9 @@
 <?php
 
 
-namespace Lukaswhite\MediaBlurhash\Utils;
+namespace Joehoel\MediaBlurhash\Utils;
 
-use Lukaswhite\MediaBlurhash\BlurhashMedia;
+use Joehoel\MediaBlurhash\BlurhashMedia;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
 
 /**
@@ -12,7 +12,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
  * Dispatches the Blurhash job, optionally using a custom connection and/or queue
  * name.
  *
- * @package Lukaswhite\MediaBlurhash\Utils
+ * @package Joehoel\MediaBlurhash\Utils
  */
 class Dispatcher
 {

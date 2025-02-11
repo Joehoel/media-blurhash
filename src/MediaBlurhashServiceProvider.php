@@ -1,10 +1,10 @@
 <?php
 
-namespace Lukaswhite\MediaBlurhash;
+namespace Joehoel\MediaBlurhash;
 
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\ServiceProvider;
-use Lukaswhite\MediaBlurhash\Console\Commands\BlurhashMediaCommand;
+use Joehoel\MediaBlurhash\Console\Commands\BlurhashMediaCommand;
 use Spatie\MediaLibrary\MediaCollections\Events\MediaHasBeenAddedEvent;
 
 class MediaBlurhashServiceProvider extends ServiceProvider

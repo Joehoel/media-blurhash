@@ -1,14 +1,14 @@
 <?php
 
-namespace Lukaswhite\MediaBlurhash;
+namespace Joehoel\MediaBlurhash;
 
-use Lukaswhite\MediaBlurhash\Utils\Dispatcher;
-use Lukaswhite\MediaBlurhash\Utils\ImageChecker;
+use Joehoel\MediaBlurhash\Utils\Dispatcher;
+use Joehoel\MediaBlurhash\Utils\ImageChecker;
 use Spatie\MediaLibrary\MediaCollections\Events\MediaHasBeenAddedEvent;
 
 /**
  * Class MediaBlurhashListener
- * @package Lukaswhite\MediaBlurhash
+ * @package Joehoel\MediaBlurhash
  */
 class MediaBlurhashListener
 {
